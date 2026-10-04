@@ -1,0 +1,16 @@
+:root{--bg:#0B192C;--card:#1E3E62;--acc:#FF6500;--txt:#F1F5F9;--mut:#A9B8CC}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:19px/1.7 'Noto Sans Devanagari',Arial,sans-serif;padding:16px}
+.box{max-width:560px;margin:24px auto;background:var(--card);border-radius:14px;padding:26px}
+h2{color:var(--acc);margin:0 0 6px}
+p.sub{color:var(--mut);margin:0 0 10px}
+label{display:block;font-weight:600;margin-top:14px}
+input,select{width:100%;padding:13px;font-size:19px;border-radius:8px;border:1px solid #475569;background:#0B192C;color:#fff;margin-top:6px;font-family:inherit}
+input:focus,select:focus{outline:2px solid var(--acc)}
+.btn{width:100%;margin-top:22px;background:var(--acc);color:#fff;border:0;border-radius:10px;padding:14px;font:700 19px inherit;cursor:pointer}
+.btn:hover{background:#E05500}
+.err{background:rgba(239,68,68,.15);border:1px solid #EF4444;color:#FCA5A5;padding:12px;border-radius:8px;margin-top:14px}
+.note{background:rgba(16,185,129,.12);border:1px solid #10B981;color:#6EE7B7;padding:12px;border-radius:8px;margin-top:14px}
+.pin{font-size:46px;font-weight:800;letter-spacing:8px;color:var(--acc);text-align:center;margin:14px 0}
+.alt{text-align:center;margin-top:18px;color:var(--mut)}
+a.lnk{color:var(--acc)}

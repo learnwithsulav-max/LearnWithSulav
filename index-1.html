@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LearnWithSulav - नेपाल बीमा प्राधिकरण अभिकर्ता परीक्षा अभ्यास पोर्टल</title>
+<meta name="description" content="नेपाल बीमा प्राधिकरण अभिकर्ता परीक्षाको अनलाइन अभ्यास: ५० प्रश्न, ९० मिनेट।">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0B192C;--card:#1E3E62;--acc:#FF6500;--acc2:#E05500;--txt:#F1F5F9;--mut:#A9B8CC}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);font:19px/1.75 'Noto Sans Devanagari',Arial,sans-serif}
+  a{color:inherit}
+  .wrap{max-width:960px;margin:0 auto;padding:0 18px}
+  header{padding:16px 0;border-bottom:1px solid #223a58}
+  header .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .brand{font-weight:800;font-size:22px;color:var(--acc);text-decoration:none}
+  .btn{display:inline-block;background:var(--acc);color:#fff;text-decoration:none;font-weight:700;padding:13px 26px;border-radius:10px;border:0;cursor:pointer}
+  .btn:hover{background:var(--acc2)}
+  .btn.ghost{background:transparent;border:2px solid var(--acc);color:var(--acc)}
+  .btn.ghost:hover{background:var(--acc);color:#fff}
+  .hero{text-align:center;padding:56px 0 36px}
+  .hero h1{font-size:clamp(28px,5vw,42px);line-height:1.35;font-weight:800}
+  .hero h1 span{color:var(--acc)}
+  .hero p{color:var(--mut);margin:14px auto 26px;max-width:640px}
+  .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .badge{display:inline-block;background:rgba(16,185,129,.15);color:#34D399;border:1px solid #10B981;border-radius:999px;padding:4px 16px;font-size:16px;margin-bottom:18px}
+  section{padding:30px 0}
+  h2{font-size:26px;margin-bottom:18px;color:var(--acc)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+  .card{background:var(--card);border-radius:14px;padding:20px;text-align:center}
+  .card b{display:block;font-size:34px;color:var(--acc);line-height:1.2}
+  .card span{color:var(--mut);font-size:17px}
+  ol.steps{list-style:none;counter-reset:s;display:grid;gap:12px}
+  ol.steps li{counter-increment:s;background:var(--card);border-radius:12px;padding:16px 18px 16px 62px;position:relative}
+  ol.steps li::before{content:counter(s);position:absolute;left:16px;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:50%;background:var(--acc);display:flex;align-items:center;justify-content:center;font-weight:800}
+  ul.tips{list-style:none;display:grid;gap:10px}
+  ul.tips li{padding-left:30px;position:relative}
+  ul.tips li::before{content:"✔";position:absolute;left:0;color:#34D399}
+  footer{border-top:1px solid #223a58;margin-top:30px;padding:24px 0;text-align:center;color:var(--mut);font-size:16px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="/">LearnWithSulav</a>
+    <a class="btn ghost" href="login.php">Login</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <span class="badge">पहिलो १ महिना निःशुल्क</span>
+    <h1>नेपाल बीमा प्राधिकरण <span>अभिकर्ता परीक्षा</span> अनलाइन अभ्यास</h1>
+    <p>वास्तविक परीक्षा जस्तै ५० प्रश्न, ९० मिनेटको समय। आफ्नो तयारी जाँच्नुहोस् र उत्तीर्ण भएमा प्रमाणपत्र पाउनुहोस्।</p>
+    <div class="cta">
+      <a class="btn" href="login.php">परीक्षा सुरु गर्नुहोस्</a>
+      <a class="btn ghost" href="register.php">दर्ता गर्नुहोस्</a>
+    </div>
+  </div>
+
+  <section>
+    <h2>परीक्षाको नियम</h2>
+    <div class="grid">
+      <div class="card"><b>५०</b><span>प्रश्न (बहुवैकल्पिक)</span></div>
+      <div class="card"><b>९०</b><span>मिनेट समय</span></div>
+      <div class="card"><b>२</b><span>अङ्क प्रत्येक सही उत्तरको</span></div>
+      <div class="card"><b>५० / १००</b><span>उत्तीर्ण अङ्क</span></div>
+    </div>
+  </section>
+
+  <section id="darta">
+    <h2>कसरी सुरु गर्ने?</h2>
+    <ol class="steps">
+      <li>नाम, मोबाइल, इमेल, बीमा प्रकार र कम्पनी भरेर दर्ता गर्नुहोस्।</li>
+      <li>भुक्तानी रसिद (Screenshot) र Transaction ID पठाउनुहोस्।</li>
+      <li>एडमिनले जाँच गरी स्वीकृत गरेपछि इमेलमा ४-अंकको Access PIN आउँछ।</li>
+      <li>मोबाइल नम्बर र PIN ले Login गरी परीक्षा दिनुहोस्।</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>किन LearnWithSulav?</h2>
+    <ul class="tips">
+      <li>एउटा पेजमा १० प्रश्न, ठूला र पढ्न सजिला अक्षर।</li>
+      <li>हरेक पटक नयाँ प्रश्न, उत्तरको क्रम पनि फेरिन्छ।</li>
+      <li>५० वा सोभन्दा बढी अङ्क ल्याए प्रमाणपत्र इमेलमा आउँछ।</li>
+      <li>उत्तीर्ण नभए पनि हार नमानी फेरि अभ्यास गर्न सकिन्छ।</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">&copy; 2026 LearnWithSulav &middot; sulavs.com.np</div>
+</footer>
+
+</body>
+</html>
